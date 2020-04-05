@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web pod
+  labels:
+    env: test
+spec:
+  containers:
+    - name: httpd pod
+      image: httpd
